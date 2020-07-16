@@ -1,0 +1,1 @@
+print("Čia dar vienas failas")
