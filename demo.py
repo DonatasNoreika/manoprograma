@@ -1,6 +1,8 @@
 import datetime
 from sqlalchemy import Column, Integer, String, Float, DateTime, create_engine
 from sqlalchemy.ext.declarative import declarative_base
+from slaptazodziai import slaptazodis
+
 
 engine = create_engine('sqlite:///projektai.db')
 Base = declarative_base()
